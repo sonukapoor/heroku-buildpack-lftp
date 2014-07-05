@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [[ -n $(lftp -v | grep "LFTP | Version 4.5.2") ]]; then
+    echo "lftp installed."
+    exit 0
+else
+    echo "lftp not found."
+    exit 1
+fi
