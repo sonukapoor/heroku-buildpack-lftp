@@ -20,7 +20,7 @@ mktmpdir() {
 
 BUILD_DIR=$1
 CACHE_DIR=$2
-VERSION="4.5.2"
+VERSION="4.7.2"
 LFTP_BUILD="$(mktmpdir lftp)"
 INSTALL_DIR="$BUILD_DIR/.heroku/vendor/lftp"
 PROFILE_PATH="$BUILD_DIR/.profile.d/lftp.sh"
